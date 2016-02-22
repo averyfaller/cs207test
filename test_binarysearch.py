@@ -7,7 +7,7 @@ def test_binary_search():
     assert binary_search(input, 5) == 5
     
 def test_empty_array():
-    assert binary_search([], 4) = Null
+    assert binary_search([], 4) == Null
 
 def test_binary_too_big():
     assert binary_search([2, 3], 4) == Null
