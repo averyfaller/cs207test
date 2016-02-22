@@ -1,6 +1,6 @@
 
 from pytest import raises
-from amath import myaverage, mymedian
+from binsearch import binary_search
 
 def test_binary_search():
     input = list(range(10))
