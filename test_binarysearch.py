@@ -28,4 +28,4 @@ def test_big():
     assert binary_search([2, 3, 4, 5], 5) == -1
     
 def test_doubles():
-    assert (binary_search([2, 2], 2) == 0 || binary_search([2, 2], 2) == 1)
+    assert (binary_search([2, 2], 2) == 0 or binary_search([2, 2], 2) == 1)
