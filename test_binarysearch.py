@@ -22,10 +22,10 @@ def test_middle_needle():
     assert binary_search([2, 4], 3) == -1
     
 def test_small():
-    assert binary_search([2, 3, 4, 5], 2) == -1
+    assert binary_search([2, 3, 4, 5], 2) == 0
     
 def test_big():
-    assert binary_search([2, 3, 4, 5], 5) == -1
+    assert binary_search([2, 3, 4, 5], 5) == 3
     
 def test_doubles():
     assert (binary_search([2, 2], 2) == 0 or binary_search([2, 2], 2) == 1)
